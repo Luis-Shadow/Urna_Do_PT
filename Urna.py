@@ -1,7 +1,6 @@
 import json
 import os
 os.system("cls")
-log = [43,54,657]
 while True:
     dados2 = {
     }
@@ -15,3 +14,4 @@ while True:
         break
     except ValueError:
         print("Digita certo seu(a) animal, aqui não tolera erros não.")
+        continue
